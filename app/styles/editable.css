@@ -1,0 +1,54 @@
+/* Common styles */
+/**
+* @tab Common styles styles
+* @section Body bg
+*/
+.body-bg {
+  /*@editable*/
+  background-color: #ededed;
+}
+
+/**
+* @tab Common styles styles
+* @section White bg
+*/
+.white-bg {
+  /*@editable*/
+  background-color: #ffffff;
+}
+
+/**
+* @tab Common styles styles
+* @section Button bg
+*/
+.button-bg {
+  /*@editable*/
+  background-color: #000000;
+}
+
+/**
+* @tab Common styles styles
+* @section Mailchimp badge bg
+*/
+.mc-badge-bg {
+  /*@editable*/
+  background-color: #ffffff;
+}
+
+/* Sections styles */
+/**
+* @tab Section-1 styles
+* @section Background image
+*/
+.s1-bg {
+  /*@editable*/
+  background-color: #DFF0F4;
+  /*@editable*/
+  background-image: url("../images/s1-bg.jpg");
+  /*@editable*/
+  background-repeat: no-repeat;
+  /*@editable*/
+  background-position: top center;
+  /*@editable*/
+  background-size: cover;
+}

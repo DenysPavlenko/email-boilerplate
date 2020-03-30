@@ -1,0 +1,44 @@
+@import './utils/_colors';
+
+/* Fonts */
+@import url('');
+
+/* Common classes */
+.color-black{
+	color: #000000;
+}
+.color-white{
+	color: #ffffff;
+}
+.align-center{
+	text-align: center;
+}
+.align-left{
+	text-align: left;
+}
+.align-right{
+	text-align: right;
+}
+.style-italic{
+	font-style: italic;
+}
+.transform-uppercase{
+	text-transform: uppercase;
+}
+
+/* Text classes */
+.h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 400;
+	text-decoration: none !important;
+}
+
+.paragraph{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	text-decoration: none !important;
+}

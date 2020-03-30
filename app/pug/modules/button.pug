@@ -1,0 +1,15 @@
+mixin button()
+	-var top     = attributes.top ? `padding-top:${attributes.top}px;` : '';
+	-var bottom  = attributes.bottom ? `padding-bottom:${attributes.bottom}px;` : '';
+
+	//
+		button
+	tr(class=attributes.mob)
+		td(align=`${attributes.align || 'left'}` style=`${top}${bottom}${attributes.style||''}`)
+			table(class=`${attributes.class || 'white-btn'}` border="0" cellpadding="0" cellspacing="0")
+				tr
+					td(align="center" class=`button align-center ${attributes.color || 'color-black'}` style=`padding:${attributes.padding}`)
+						a(href="http://example.com" class=`${attributes.color || 'color-black'}`)
+							block
+	//
+		button

@@ -1,0 +1,11 @@
+mixin text()
+	- var top    = attributes.top ? `padding-top:${attributes.top}px;` : '';
+	- var bottom = attributes.bottom ? `padding-bottom:${attributes.bottom}px;` : '';
+
+	//
+		text
+	tr(class=attributes.mob)
+		td(class=`${attributes.class}` style=`${top}${bottom}${attributes.style||''}`)
+			block
+	//
+		text

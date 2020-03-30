@@ -1,0 +1,32 @@
+@import './variables';
+
+// Gutter count
+@function gutter(){
+	@return percentage($gutter/$container);
+}
+// Md width count
+@function width($width, $gutter){
+	@return $width - $gutter * 2;
+}
+
+
+// Column md
+@mixin col($size){
+	width: ($size / $cols * 100%)
+}
+// Column mobile
+@mixin col-sm($size){
+	width: ($size / $cols * 100%) !important
+}
+
+
+// Group classes
+@mixin groupClasses($num, $className){
+	$classes: '';
+	@for $i from 1 through $num {
+		$classes: $classes + '.' + $className + '-' + $i + ',';
+	}
+	#{$classes} {
+		@content;
+	}
+}

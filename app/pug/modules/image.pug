@@ -1,0 +1,11 @@
+mixin image()
+	- var top    = attributes.top ? `padding-top:${attributes.top}px;` : '';
+	- var bottom = attributes.bottom ? `padding-bottom:${attributes.bottom}px;` : '';
+
+	//
+		image
+	tr(class=attributes.mob)
+		td(align=`${attributes.align || 'left'}` style=`${top}${bottom}${attributes.style||''}`)
+			img(src=`${attributes.src}` width="auto" height="auto" alt="" style="width:100%; max-width:100%; display: block;")
+	//
+		image

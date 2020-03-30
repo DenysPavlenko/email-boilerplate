@@ -1,0 +1,12 @@
+mixin line()
+	- var top    = attributes.top ? `padding-top:${attributes.top}px;` : '';
+	- var bottom = attributes.bottom ? `padding-bottom:${attributes.bottom}px;` : '';
+
+	//
+		line
+	tr(class=attributes.mob)
+		td(align=`${attributes.align || 'left'}` style=`${top}${bottom}${attributes.style||''}`)
+			table(class=`${attributes.color}` align=`${attributes.align || 'left'}` width=`${attributes.width}` height=`${attributes.height}` border="0" cellpadding="0" cellspacing="0")
+				tr: td(height=`${attributes.height}` style=`line-height: ${attributes.height}px;`)
+	//
+		line

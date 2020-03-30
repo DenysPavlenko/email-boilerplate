@@ -1,0 +1,33 @@
+@import './utils/_helpers';
+@import './utils/_colors';
+
+/* Common styles */
+@include section('Common styles', 'Body bg');
+.body-bg {
+	/*@editable*/background-color: $body-color;
+}
+@include section('Common styles', 'White bg');
+.white-bg {
+	/*@editable*/background-color: $white-color;
+}
+@include section('Common styles', 'Button bg');
+.button-bg {
+	/*@editable*/background-color: #000000;
+}
+
+
+@include section('Common styles', 'Mailchimp badge bg');
+.mc-badge-bg {
+	/*@editable*/background-color: $white-color;
+}
+
+
+/* Sections styles */
+@include section('Section-1', 'Background image');
+.s1-bg {
+	/*@editable*/background-color: #DFF0F4;
+	/*@editable*/background-image: url('../images/s1-bg.jpg');
+	/*@editable*/background-repeat: no-repeat;
+	/*@editable*/background-position: top center;
+	/*@editable*/background-size: cover;
+}

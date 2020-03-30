@@ -1,0 +1,1 @@
+module.exports = elem => elem.getAttribute('class').match(/^([\w\-]+)/g)[0];

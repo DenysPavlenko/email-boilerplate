@@ -1,0 +1,12 @@
+mixin unsub()
+	- var top    = attributes.top ? `padding-top:${attributes.top}px;` : '';
+	- var bottom = attributes.bottom ? `padding-bottom:${attributes.bottom}px;` : '';
+
+	//
+		text
+	tr(class=attributes.mob)
+		td(class=`${attributes.class} ${attributes.color}` style=`${top}${bottom}${attributes.style||''}`)
+			a(href=`${attributes.link || "https://example.com"}` data-unsubscribe class=`${attributes.color}`)
+				block
+	//
+		text

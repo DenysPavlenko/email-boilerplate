@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  outline: none !important;
+}
+
+table {
+  border-spacing: 0;
+}
+
+table td {
+  border-collapse: collapse;
+}
+
+img {
+  display: block;
+  outline: none !important;
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: inherit;
+}
+
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+td a {
+  color: inherit;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-style: none;
+  outline: none !important;
+}
+
+.undoreset a, .undoreset a:hover {
+  text-decoration: none !important;
+}
+
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
+.ios-footer a {
+  color: #aaaaaa !important;
+  text-decoration: none;
+}
+
+table p, table h1, table h2, table h3, table h4 {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  display: inline-block !important;
+  font-family: inherit !important;
+}
+
+#canspamBar a img {
+  display: inline-block !important;
+}
