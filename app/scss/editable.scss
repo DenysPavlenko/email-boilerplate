@@ -2,21 +2,21 @@
 @import './utils/_colors';
 
 /* Common styles */
-@include section('Common styles', 'Body bg');
+@include section('Common styles', 'Body background');
 .body-bg {
 	/*@editable*/background-color: $body-color;
 }
-@include section('Common styles', 'White bg');
+@include section('Common styles', 'White background');
 .white-bg {
 	/*@editable*/background-color: $white-color;
 }
-@include section('Common styles', 'Button bg');
+@include section('Common styles', 'Button background');
 .button-bg {
 	/*@editable*/background-color: #000000;
 }
 
 
-@include section('Common styles', 'Mailchimp badge bg');
+@include section('Common styles', 'Mailchimp badge background');
 .mc-badge-bg {
 	/*@editable*/background-color: $white-color;
 }
