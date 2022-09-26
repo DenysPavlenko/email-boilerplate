@@ -21,7 +21,7 @@
     "gulp-if": "^3.0.0",
     "gulp-inject-css": "^2.0.1",
     "gulp-inject-string": "^1.1.2",
-    "gulp-inline-css": "^3.5.0",
+    "gulp-inline-css": "^4.0.0",
     "gulp-jimp": "^1.2.9",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
